@@ -1,0 +1,37 @@
+
+
+
+/* Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+/* Navbar */
+.navbar { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; background: #222; color: #fff; }
+.navbar ul { display: flex; list-style: none; }
+.navbar ul li { margin: 0 10px; }
+.navbar ul li a { color: #fff; text-decoration: none; }
+.navbar ul li a.active { border-bottom: 2px solid #0f0; }
+
+/* Hero */
+.hero { text-align: center; padding: 100px 20px; background: linear-gradient(to right, #3a6186, #89253e); color: #fff; }
+.hero .btn { background: #0f0; padding: 10px 20px; color: #000; border-radius: 5px; }
+
+/* Sections */
+section { padding: 40px 20px; }
+.project-card { background: #f9f9f9; padding: 20px; margin: 15px 0; border-radius: 8px; }
+.project-card img { width: 100%; max-width: 400px; border-radius: 6px; }
+
+/* Form */
+form { max-width: 400px; margin: auto; display: flex; flex-direction: column; }
+form input, form textarea { margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+form button { background: #222; color: #fff; border: none; padding: 10px; cursor: pointer; }
+
+/* Footer */
+footer { text-align: center; padding: 20px; background: #222; color: #fff; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar ul { flex-direction: column; }
+  .hero { padding: 50px 20px; }
+}
+

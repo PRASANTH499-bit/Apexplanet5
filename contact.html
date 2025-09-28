@@ -1,0 +1,38 @@
+### 4. contact.html
+
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">MyPortfolio</a>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Contact Me</h1>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="formMsg"></p>
+  </section>
+  
+  <script src="script.js" defer></script>
+</body>
+</html>
+
